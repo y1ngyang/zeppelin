@@ -44,7 +44,7 @@
          instead of changing spark.version in this section.
     -->
 
-    <spark.version>1.4.1</spark.version>
+    <spark.version>99.9.9</spark.version>
     <hadoop.version>2.3.0</hadoop.version>
     <yarn.version>${hadoop.version}</yarn.version>
     <avro.version>1.7.7</avro.version>
