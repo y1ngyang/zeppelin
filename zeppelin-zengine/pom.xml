@@ -36,12 +36,12 @@
 
   <properties>
     <!--library versions-->
-    <hadoop.version>2.7.3</hadoop.version>
+    <hadoop.version>3.0.0</hadoop.version>
     <commons.lang3.version>3.4</commons.lang3.version>
     <commons.vfs2.version>2.0</commons.vfs2.version>
-    <aws.sdk.s3.version>1.10.62</aws.sdk.s3.version>
+    <aws.sdk.s3.version>1.11.161</aws.sdk.s3.version>
     <azure.storage.version>4.0.0</azure.storage.version>
-    <jackrabbit.webdav.version>1.5.2</jackrabbit.webdav.version>
+    <jackrabbit.webdav.version>2.1.0</jackrabbit.webdav.version>
     <quartz.scheduler.version>2.2.1</quartz.scheduler.version>
     <lucene.version>5.3.1</lucene.version>
     <org.reflections.version>0.9.8</org.reflections.version>
