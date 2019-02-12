@@ -677,7 +677,7 @@
         <dependency>
           <groupId>org.apache.curator</groupId>
           <artifactId>curator-recipes</artifactId>
-          <version>2.4.0</version>
+          <version>4.1.0</version>
           <exclusions>
             <exclusion>
               <groupId>org.apache.zookeeper</groupId>
@@ -719,7 +719,7 @@
         <dependency>
           <groupId>org.apache.curator</groupId>
           <artifactId>curator-recipes</artifactId>
-          <version>2.4.0</version>
+          <version>4.1.0</version>
           <exclusions>
             <exclusion>
               <groupId>org.apache.zookeeper</groupId>
@@ -761,7 +761,7 @@
         <dependency>
           <groupId>org.apache.curator</groupId>
           <artifactId>curator-recipes</artifactId>
-          <version>2.4.0</version>
+          <version>4.1.0</version>
           <exclusions>
             <exclusion>
               <groupId>org.apache.zookeeper</groupId>
@@ -803,7 +803,7 @@
         <dependency>
           <groupId>org.apache.curator</groupId>
           <artifactId>curator-recipes</artifactId>
-          <version>2.4.0</version>
+          <version>4.1.0</version>
           <exclusions>
             <exclusion>
               <groupId>org.apache.zookeeper</groupId>
