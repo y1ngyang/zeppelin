@@ -45,7 +45,7 @@
     -->
 
     <spark.version>1.4.1</spark.version>
-    <hadoop.version>2.3.0</hadoop.version>
+    <hadoop.version>3.2.0</hadoop.version>
     <yarn.version>${hadoop.version}</yarn.version>
     <avro.version>1.7.7</avro.version>
     <avro.mapred.classifier/>
