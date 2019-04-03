@@ -688,7 +688,7 @@
         <dependency>
           <groupId>org.apache.zookeeper</groupId>
           <artifactId>zookeeper</artifactId>
-          <version>3.4.5-mapr-1503</version>
+          <version>3.4.11-mapr-1808</version>
         </dependency>
       </dependencies>
       <repositories>
@@ -730,7 +730,7 @@
         <dependency>
           <groupId>org.apache.zookeeper</groupId>
           <artifactId>zookeeper</artifactId>
-          <version>3.4.5-mapr-1503</version>
+          <version>3.4.11-mapr-1808</version>
         </dependency>
       </dependencies>
       <repositories>
@@ -772,7 +772,7 @@
         <dependency>
           <groupId>org.apache.zookeeper</groupId>
           <artifactId>zookeeper</artifactId>
-          <version>3.4.5-mapr-1503</version>
+          <version>3.4.11-mapr-1808</version>
         </dependency>
       </dependencies>
       <repositories>
@@ -814,7 +814,7 @@
         <dependency>
           <groupId>org.apache.zookeeper</groupId>
           <artifactId>zookeeper</artifactId>
-          <version>3.4.5-mapr-1503</version>
+          <version>3.4.11-mapr-1808</version>
         </dependency>
       </dependencies>
       <repositories>
