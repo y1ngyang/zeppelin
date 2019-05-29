@@ -50,7 +50,7 @@
     <avro.version>1.7.7</avro.version>
     <avro.mapred.classifier/>
     <jets3t.version>0.7.1</jets3t.version>
-    <protobuf.version>2.4.1</protobuf.version>
+    <protobuf.version>3.8.0</protobuf.version>
 
     <akka.group>org.spark-project.akka</akka.group>
     <akka.version>2.3.4-spark</akka.version>
