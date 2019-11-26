@@ -38,7 +38,7 @@
     <commons.httpclient.version>4.3.6</commons.httpclient.version>
     <jersey.version>2.22.2</jersey.version>
     <hadoop-common.version>2.6.0</hadoop-common.version>
-    <quartz.scheduler.version>2.2.1</quartz.scheduler.version>
+    <quartz.scheduler.version>2.3.2</quartz.scheduler.version>
     <jersey.servlet.version>1.13</jersey.servlet.version>
     <javax.ws.rsapi.version>2.0.1</javax.ws.rsapi.version>
     <libpam4j.version>1.8</libpam4j.version>
@@ -393,7 +393,7 @@
             <configuration>
               <target unless="skipTests">
                 <exec executable="./zeppelin-daemon.sh" dir="${zeppelin.daemon.package.base}" spawn="true">
-                  <arg value="start" />
+                  <arg value="start"/>
                 </exec>
               </target>
             </configuration>
@@ -408,7 +408,7 @@
             <configuration>
               <target unless="skipTests">
                 <exec executable="./zeppelin-daemon.sh" dir="${zeppelin.daemon.package.base}" spawn="false">
-                  <arg value="stop" />
+                  <arg value="stop"/>
                 </exec>
               </target>
             </configuration>
