@@ -1,0 +1,101 @@
+version: 2
+updates:
+- package-ecosystem: maven
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "07:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: com.google.protobuf:protobuf-java
+    versions:
+    - 3.14.0
+    - 3.15.2
+    - 3.15.3
+    - 3.15.4
+    - 3.15.5
+    - 3.15.6
+    - 3.15.7
+  - dependency-name: org.eclipse.jetty:jetty-webapp
+    versions:
+    - 9.4.36.v20210114
+    - 9.4.37.v20210219
+    - 9.4.38.v20210224
+    - 9.4.39.v20210325
+  - dependency-name: org.eclipse.jetty.websocket:websocket-server
+    versions:
+    - 9.4.36.v20210114
+    - 9.4.37.v20210219
+    - 9.4.38.v20210224
+    - 9.4.39.v20210325
+  - dependency-name: org.eclipse.jetty:jetty-servlet
+    versions:
+    - 9.4.36.v20210114
+    - 9.4.37.v20210219
+    - 9.4.38.v20210224
+    - 9.4.39.v20210325
+  - dependency-name: org.eclipse.jetty:jetty-server
+    versions:
+    - 9.4.36.v20210114
+    - 9.4.37.v20210219
+    - 9.4.38.v20210224
+    - 9.4.39.v20210325
+  - dependency-name: org.eclipse.jetty.websocket:websocket-client
+    versions:
+    - 9.4.36.v20210114
+    - 9.4.37.v20210219
+    - 9.4.38.v20210224
+    - 9.4.39.v20210325
+  - dependency-name: org.eclipse.jetty:jetty-client
+    versions:
+    - 9.4.36.v20210114
+    - 9.4.37.v20210219
+    - 9.4.38.v20210224
+    - 9.4.39.v20210325
+  - dependency-name: org.apache.lucene:lucene-highlighter
+    versions:
+    - 8.7.0
+    - 8.8.0
+    - 8.8.1
+  - dependency-name: org.apache.lucene:lucene-queryparser
+    versions:
+    - 8.7.0
+    - 8.8.0
+    - 8.8.1
+  - dependency-name: org.apache.lucene:lucene-analyzers-common
+    versions:
+    - 8.7.0
+    - 8.8.0
+    - 8.8.1
+  - dependency-name: org.apache.lucene:lucene-core
+    versions:
+    - 8.7.0
+    - 8.8.0
+    - 8.8.1
+  - dependency-name: org.apache.jackrabbit:jackrabbit-webdav
+    versions:
+    - 2.21.5
+  - dependency-name: org.apache.ignite:ignite-scalar
+    versions:
+    - 2.9.1
+  - dependency-name: org.apache.ignite:ignite-indexing
+    versions:
+    - 2.9.1
+  - dependency-name: org.apache.ignite:ignite-spring
+    versions:
+    - 2.9.1
+  - dependency-name: org.apache.ignite:ignite-core
+    versions:
+    - 2.9.1
+  - dependency-name: org.eclipse.jgit:org.eclipse.jgit
+    versions:
+    - 5.10.0.202012080955-r
+  - dependency-name: org.apache.shiro:shiro-config-core
+    versions:
+    - 1.7.0
+  - dependency-name: org.apache.shiro:shiro-web
+    versions:
+    - 1.7.0
+  - dependency-name: org.apache.shiro:shiro-core
+    versions:
+    - 1.7.0
