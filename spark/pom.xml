@@ -43,7 +43,7 @@
     <maven.plugin.api.version>3.0</maven.plugin.api.version>
     <aether.version>1.12</aether.version>
     <maven.aeither.provider.version>3.0.3</maven.aeither.provider.version>
-    <wagon.version>1.0</wagon.version>
+    <wagon.version>2.0</wagon.version>
 
     <datanucleus.rdbms.version>3.2.9</datanucleus.rdbms.version>
     <datanucleus.apijdo.version>3.2.6</datanucleus.apijdo.version>
@@ -497,7 +497,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <excludes combine.self="override"></excludes>
+          <excludes combine.self="override"/>
           <testExcludes combine.self="override">
             <testExclude>${pyspark.test.exclude}</testExclude>
           </testExcludes>
@@ -526,7 +526,7 @@
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <configuration>
-          <excludes combine.self="override"></excludes>
+          <excludes combine.self="override"/>
           <testExcludes combine.self="override">
             <testExclude>${pyspark.test.exclude}</testExclude>
           </testExcludes>
