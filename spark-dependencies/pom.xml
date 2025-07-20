@@ -45,7 +45,7 @@
     -->
 
     <spark.version>1.4.1</spark.version>
-    <hadoop.version>2.3.0</hadoop.version>
+    <hadoop.version>3.2.0</hadoop.version>
     <yarn.version>${hadoop.version}</yarn.version>
     <avro.version>1.7.7</avro.version>
     <avro.mapred.classifier/>
@@ -576,14 +576,14 @@
         </dependency>
       </dependencies>
       <properties>
-        <hadoop.version>0.23.10</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
       </properties>
     </profile>
 
     <profile>
       <id>hadoop-1</id>
       <properties>
-        <hadoop.version>1.0.4</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <avro.mapred.classifier>hadoop1</avro.mapred.classifier>
         <codehaus.jackson.version>1.8.8</codehaus.jackson.version>
         <akka.group>org.spark-project.akka</akka.group>
@@ -593,7 +593,7 @@
     <profile>
       <id>hadoop-2.2</id>
       <properties>
-        <hadoop.version>2.2.0</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <protobuf.version>2.5.0</protobuf.version>
         <avro.mapred.classifier>hadoop2</avro.mapred.classifier>
       </properties>
@@ -602,7 +602,7 @@
     <profile>
       <id>hadoop-2.3</id>
       <properties>
-        <hadoop.version>2.3.0</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <protobuf.version>2.5.0</protobuf.version>
         <jets3t.version>0.9.3</jets3t.version>
         <avro.mapred.classifier>hadoop2</avro.mapred.classifier>
@@ -612,7 +612,7 @@
     <profile>
       <id>hadoop-2.4</id>
       <properties>
-        <hadoop.version>2.4.0</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <protobuf.version>2.5.0</protobuf.version>
         <jets3t.version>0.9.3</jets3t.version>
         <avro.mapred.classifier>hadoop2</avro.mapred.classifier>
@@ -622,7 +622,7 @@
     <profile>
       <id>hadoop-2.6</id>
       <properties>
-        <hadoop.version>2.6.0</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <protobuf.version>2.5.0</protobuf.version>
         <jets3t.version>0.9.3</jets3t.version>
         <avro.mapred.classifier>hadoop2</avro.mapred.classifier>
@@ -632,7 +632,7 @@
     <profile>
       <id>hadoop-2.7</id>
       <properties>
-        <hadoop.version>2.7.2</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <protobuf.version>2.5.0</protobuf.version>
         <jets3t.version>0.9.0</jets3t.version>
         <avro.mapred.classifier>hadoop2</avro.mapred.classifier>
@@ -645,7 +645,7 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <hadoop.version>1.0.3-mapr-3.0.3</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <yarn.version>2.3.0-mapr-4.0.0-FCS</yarn.version>
         <jets3t.version>0.7.1</jets3t.version>
       </properties>
@@ -669,7 +669,7 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <hadoop.version>2.4.1-mapr-1503</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <yarn.version>2.4.1-mapr-1503</yarn.version>
         <jets3t.version>0.9.3</jets3t.version>
       </properties>
@@ -711,7 +711,7 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <hadoop.version>2.5.1-mapr-1503</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <yarn.version>2.5.1-mapr-1503</yarn.version>
         <jets3t.version>0.7.1</jets3t.version>
       </properties>
@@ -753,7 +753,7 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <hadoop.version>2.7.0-mapr-1506</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <yarn.version>2.7.0-mapr-1506</yarn.version>
         <jets3t.version>0.9.3</jets3t.version>
       </properties>
@@ -795,7 +795,7 @@
         <activeByDefault>false</activeByDefault>
       </activation>
       <properties>
-        <hadoop.version>2.7.0-mapr-1602</hadoop.version>
+        <hadoop.version>3.2.0</hadoop.version>
         <yarn.version>2.7.0-mapr-1602</yarn.version>
         <jets3t.version>0.9.3</jets3t.version>
       </properties>
@@ -982,11 +982,8 @@
             <configuration>
               <target>
                 <delete dir="../interpreter/spark/pyspark"/>
-                <copy todir="../interpreter/spark/pyspark"
-                      file="${project.build.directory}/${spark.archive}/python/lib/py4j-${spark.py4j.version}-src.zip"/>
-                <zip destfile="${project.build.directory}/../../interpreter/spark/pyspark/pyspark.zip"
-                     basedir="${project.build.directory}/${spark.archive}/python"
-                     includes="pyspark/*.py,pyspark/**/*.py"/>
+                <copy todir="../interpreter/spark/pyspark" file="${project.build.directory}/${spark.archive}/python/lib/py4j-${spark.py4j.version}-src.zip"/>
+                <zip destfile="${project.build.directory}/../../interpreter/spark/pyspark/pyspark.zip" basedir="${project.build.directory}/${spark.archive}/python" includes="pyspark/*.py,pyspark/**/*.py"/>
               </target>
             </configuration>
           </execution>
